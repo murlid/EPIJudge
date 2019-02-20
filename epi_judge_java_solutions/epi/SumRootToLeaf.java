@@ -15,6 +15,8 @@ import epi.test_framework.GenericTest;
  
  So this is what we do: Every time we visit a node,we compute the integer it encodes using the number of its parent. If the node 
  is a leaf,we returns its integer, else we return the sum of the results from its left and right children.
+ 
+ Time complexity is O(N) and space complexity is O(h)
 
 */
 public class SumRootToLeaf {
