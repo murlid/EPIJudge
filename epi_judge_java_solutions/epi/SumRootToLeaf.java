@@ -46,5 +46,6 @@ public class SumRootToLeaf {
             .runFromAnnotations(args, "SumRootToLeaf.java",
                                 new Object() {}.getClass().getEnclosingClass())
             .ordinal());
+    
   }
 }
