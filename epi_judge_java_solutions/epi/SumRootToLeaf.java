@@ -12,6 +12,9 @@ import epi.test_framework.GenericTest;
  The insight here is to recognize that paths share nodes and that it is not necessary to repeat the computations across the
  shared nodes. To compute the integer for the path from the root to any node, we take the integer for the root's parent , double it 
  and add the bit at that node.
+ 
+ So this is what we do: Every time we visit a node,we compute the integer it encodes using the number of its parent. If the node 
+ is a leaf,we returns its integer, else we return the sum of the results from its left and right children.
 
 */
 public class SumRootToLeaf {
