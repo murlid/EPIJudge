@@ -1,5 +1,12 @@
 package epi;
 
+/*
+  Program takes a list and returns NULL if there id NO Cycle. 
+  Rerturns the start of the Cycle if there is one
+  
+  Time Complexity O(f) + O(c)  = O(n) - o(f)   for both pointers to reach the cycle
+  O(C) for the 2 pointers to catch up(overlap) , once the slower pointer enters the cycle
+*/
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
