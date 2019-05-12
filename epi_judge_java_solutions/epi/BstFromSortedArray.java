@@ -1,3 +1,9 @@
+/*
+  Build a BST of min hieght from a sorted array.
+  1. below is O(n) time Complexity - since we make exactly n calls to recursive of function each costing O(1)
+  2. Intuitively Tree is balanced if the number of nodes on both sides of root are close
+
+*/
 package epi;
 
 import epi.test_framework.BinaryTreeUtils;
