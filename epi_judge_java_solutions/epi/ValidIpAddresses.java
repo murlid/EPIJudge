@@ -1,3 +1,11 @@
+/*
+  IP address e.g 192.168.1.1. If the Dots are not entered, then there could be several combinations of IP addresseses given a 
+   String
+   Rules : If a o appears it can only be the First decimal ( decimal being any number betwenn 0 and 255)
+         so 0.10.34.11 is valid. but not 01.23.10.34
+         Performance O(1) since the number of IP addresses is constant and is Math,pow(2,32) and so  time complex is O(1)
+*/
+
 package epi;
 
 import epi.test_framework.EpiTest;
