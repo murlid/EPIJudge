@@ -7,6 +7,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
+/*
+  The Time comnplexity is O(n) since we perform a constant amount of work per entry . space is O(1) as we reuse  A space
+*/
+  
 public class FirstMissingPositiveEntry {
   @EpiTest(testDataFile = "first_missing_positive_entry.tsv")
 
