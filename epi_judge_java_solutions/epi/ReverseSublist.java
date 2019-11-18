@@ -22,7 +22,7 @@ public class ReverseSublist {
       ListNode<Integer> temp = sublistIter.next;
       sublistIter.next = temp.next;
       temp.next = sublistHead.next;
-      sublistHead.next = temp;
+      sublistHead.next = temp;  // MDR typo? should this be subListIter.next = temp instead??
     }
     return dummyHead.next;
   }
