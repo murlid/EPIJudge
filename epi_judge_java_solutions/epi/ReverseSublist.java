@@ -22,7 +22,16 @@ public class ReverseSublist {
       ListNode<Integer> temp = sublistIter.next;
       sublistIter.next = temp.next;
       temp.next = sublistHead.next;
-      sublistHead.next = temp;  // MDR typo? No, its good Nov 17 2019
+      sublistHead.next = temp;  
+      /*  MDR below seems more readable n clear .. my own solution Nov 17 2019
+       while ( start++ < finish) {
+        ListNode temp = subListerIter.next;
+        subListIter.next = subListHead.next;
+        subListHead.next = temp;
+       
+       }
+      
+      */
     }
     return dummyHead.next;
   }
