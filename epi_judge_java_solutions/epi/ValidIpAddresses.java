@@ -65,4 +65,4 @@ public class ValidIpAddresses {
                                 new Object() {}.getClass().getEnclosingClass())
             .ordinal());
   }
-}
+} // Time complexity constant,since the number of IP Addresses is 2^32
